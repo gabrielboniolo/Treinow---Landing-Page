@@ -1,0 +1,25 @@
+@media screen and (min-width: 700px) {
+    header {
+        background: url(../images/woman-running-m.jpg);
+        background-size: cover;
+        background-position: top center;
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        background: url(../images/woman-running-g.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 90vh;
+    }
+
+    .services__container p {
+        text-align: center;
+    }
+
+    .topic-card p {
+        text-align: center;
+    }
+}
